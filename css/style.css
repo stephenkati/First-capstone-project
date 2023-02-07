@@ -117,7 +117,7 @@
 }
 
 .main-program {
-  background-image: url(/images/solid-concrete-wall-textured-backdrop.jpg);
+  background-image: url(https://stephenkati.github.io/First-capstone-project/images/solid-concrete-wall-textured-backdrop.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -450,7 +450,7 @@ footer {
     rgba(255, 0, 0, 0.45), 
     rgba(255, 0, 0, 0.45)
   ),
-   url(/images/friends-enjoying-hot-coffee.jpg);
+   url(https://github.com/stephenkati/First-capstone-project/images/friends-enjoying-hot-coffee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -469,7 +469,7 @@ footer {
     rgba(255, 0, 0, 0.45), 
     rgba(255, 0, 0, 0.45)
   ),
-   url(/images/happy-diverse-friends.jpg);
+   url(https://stephenkati.github.io/First-capstone-project/images/happy-diverse-friends.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
