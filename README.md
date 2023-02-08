@@ -60,14 +60,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: setup and mobile first] 
+# 📖 [First Capstone Project] 
 
-> This project introduces me to use of Linters, professional repo summary and Github Flow.
+> This project tests my skills on various topics mastered during the first module.
 
-**[Portfolio: setup and mobile first]** is a brief introduction including my name, contact information, and a summary of your skills and experience as a software developer.
+**[Global Canvas Art Exhibition Concert]** is a concert for showcasing art and giving artists and art lovers an oportunity to explore different galleries, be challenged as well as meet new people with similiar interests. 
 
-A list of relevant skills: List the programming languages, frameworks, and tools that you are proficient in.
-
+The website is build with HTML, CSS and Javascript.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -79,7 +78,7 @@ A list of relevant skills: List the programming languages, frameworks, and tools
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML and CSS</a></li>
+    <li><a href="#">HTML, CSS and Javascript</a></li>
   </ul>
 </details>
 
@@ -115,7 +114,7 @@ A list of relevant skills: List the programming languages, frameworks, and tools
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://stephenkati.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link](https://stephenkati.github.io/First-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,28 +126,31 @@ A new developer can get the project from my Github repo link i shall provide.
 
 To get a local copy up and running, follow these steps.
 
-<!-- 
-go to https://github.com/stephenkati/Portfolio-setup-and-mobile-first 
+
+go to https://github.com/stephenkati/First-capstone-project
 
 clone or download the project
 
 Run it in your favourite browser
- -->
+
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-code editor
-Browser
- -->
+-A code editor, preferably VSCode. Any other code editor is okay.
+
+-Browser
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
+run git clone https://github.com/stephenkati/First-capstone-project.git
+
+or
+
 In the File menu, click Clone Repository.
 
 Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
@@ -158,47 +160,38 @@ Choose the repository you want to clone from the list.
 Click Choose... and navigate to a local path where you want to clone the repository.
 
 Click Clone.
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
 Download the project from github and run it in your browser.
---->
+
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, navigate to the project directory and use a live Server extension in your VSCode to run the project.
 
-<!--
-Click go live on your live server
-or
-write the exact location of the file on your browser and choose index.html file
---->
 
 ### Run tests
 
-ou can run tests to check for linter errors by running the following command: npx stylelint "**/*.{css,scss}"
+You can run tests to check for linter errors by running the following commands:
 
-<!--
-Use linters to check for errors. Html and css linters are already added.
---->
+-npx stylelint "**/*.{css,scss}" for testing css errors
+-npx eslint . for Javascript errors
+
 
 ### Deployment
 
-The app is deployed on Github pages. Follow the link below: https://stephenkati.github.io/Portfolio-setup-and-mobile-first/
+The app is deployed on Github pages. Follow the link below: https://stephenkati.github.io/First-capstone-project/
 
-<!--
-upload it to your github main branch 
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
@@ -208,13 +201,6 @@ upload it to your github main branch
 - Twitter: [@twitterhandle](https://twitter.com/Stephen57913145)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephen-katuli-a92752251/)
 
-👤 **Queenter Juma**
-- GitHub: [@githubhandle](https://github.com/QueenterJuma)
-
-👤 **Ometman**
-- GitHub: [@githubhandle](https://github.com/ometman)
-- Twitter: [@twitterhandle](https://twitter.com/ometman)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ometman)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,9 +210,9 @@ upload it to your github main branch
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[A better looking portfolio]**
-- [ ] **[Css Styling]**
-- [ ] **[Javascript Functionality]**
+- [ ] **[More backround images]**
+- [ ] **[Animations and transitions]**
+- [ ] **[More Javascript Functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,7 +222,7 @@ upload it to your github main branch
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/stephenkati/First-capstone-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,8 +244,8 @@ I would like to thankmy Microverse team and my coding partners for their support
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 **Project presentation video**
-Follow the link below to see a brief presentation of the project.
-https://www.loom.com/share/04dcc64e063248eda0b07a0e4aef6f09
+Follow this <a href="https://www.loom.com/share/6d4bce911db0406d9f5f246a3722c7f1">link</a> to see a brief presentation of the project.
+
 
 <!-- FAQ (optional) -->
 
@@ -279,7 +265,7 @@ https://www.loom.com/share/04dcc64e063248eda0b07a0e4aef6f09
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/stephenkati/Portfolio-setup-and-mobile-first/blob/master/LICENSE.md"> MIT  licensed.</a>
+This project is <a href=""> MIT  licensed.</a>
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
