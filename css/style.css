@@ -88,11 +88,14 @@
 
 .hero-section h1 {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 38px;
+  font-size: 9vw;
+  line-height: 13.5vw;
   font-weight: 500;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  width: 98%;
+  height: 100%;
 }
 
 .hero-desc {
@@ -117,7 +120,7 @@
 }
 
 .main-program {
-  background-image: url(https://stephenkati.github.io/First-capstone-project/images/solid-concrete-wall-textured-backdrop.jpg);
+  background-image: url(./images/solid-concrete-wall-textured-backdrop.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -219,12 +222,12 @@
   background-color: #fff;
 }
 
-.disappear {
+.speaker-card:nth-child(n+3) {
   display: none;
 }
 
-.appear {
-  display: block;
+.showcards {
+  display: flex;
 }
 
 .img {
@@ -249,11 +252,7 @@
   font-size: 22px;
 }
 
-.speaker-card-content a {
-  text-decoration: none;
-}
-
-.speaker-card-content a em {
+.red em {
   color: #ec5242;
   font-size: 16px;
   margin-bottom: 5px;
@@ -295,7 +294,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 1em; */
   gap: 2em;
   height: 200px;
 }
@@ -453,7 +451,7 @@ footer {
     rgba(255, 0, 0, 0.45), 
     rgba(255, 0, 0, 0.45)
   ),
-   url(https://stephenkati.github.io/First-capstone-project/images/friends-enjoying-hot-coffee.jpg);
+   url(./images/friends-enjoying-hot-coffee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -472,7 +470,7 @@ footer {
     rgba(255, 0, 0, 0.45), 
     rgba(255, 0, 0, 0.45)
   ),
-   url(https://stephenkati.github.io/First-capstone-project/images/happy-diverse-friends.jpg);
+   url(./images/happy-diverse-friends.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -540,7 +538,6 @@ footer {
 
   .desktop-nav ul {
     display: flex;
-    /* gap: 10%; */
     align-items: center;
     padding-right: 27%;
   }
@@ -582,10 +579,12 @@ footer {
 
   .p {
     font-size: 30px;
+    line-height: 50px;
   }
 
   .hero-inner-section h1 {
     font-size: 50px;
+    line-height: 63px;
   }
 
   .hero-desc {
@@ -687,10 +686,13 @@ footer {
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    /* margin: 5%; */
     padding: .6em .2em;
   }
   
+  .speaker-card:nth-child(n+3) {
+    display: flex;
+  }
+
   .img {
    width: 12%;
   }
@@ -706,18 +708,13 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    /* margin-left: 70px; */
   }
   
   .speaker-title {
     font-size: 22px;
   }
   
-  .speaker-card-content a {
-    text-decoration: none;
-  }
-  
-  .speaker-card-content a em {
+  .red em {
     color: #ec5242;
     font-size: 16px;
     margin-bottom: 5px;

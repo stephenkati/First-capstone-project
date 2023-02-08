@@ -16,20 +16,29 @@ navitem.forEach((n) => n.addEventListener('click', () => menu.classList.remove('
 
 // toggle cards for speakers
 const more = document.querySelector('#more');
-const speakercards = document.querySelector('.disappear');
+const speakercardshide = document.querySelector('.speaker-card');
 const morebtn = document.querySelector('.before-expand');
 const lessbtn = document.querySelector('.after-expand');
 
 more.addEventListener('click', (e) => {
     e.preventDefault();
-    speakercards.classList.toggle('disappear');
+    // speakercardshide.classList.toggle('');
     lessbtn.classList.toggle('after-expand');
 
     if (morebtn.style.display === "none") {
         morebtn.style.display = "block";
-      } else {
+    } 
+    else {
         morebtn.style.display = "none";
-      }
+    }
+
+    // if (speakercardshide.style.display === "none") {
+    //   speakercardshide.style.display = "flex";
+    // } 
+    // else {
+    //   speakercardshide.style.display = "none";
+    // }
+    
 });
 
 // array for featured speakers
@@ -37,7 +46,7 @@ more.addEventListener('click', (e) => {
 const speakers = [
   {
     id: '1',
-    speakerPhoto: '/images/PeterDoig.jpg',
+    speakerPhoto: './images/PeterDoig.jpg',
     speakerPhotoAlt: 'Peter Doig, contemporary artists',
     speakerTitle: 'Peter Doig',
     speakerLink: 'One of the most renowned living figurative painters.',
@@ -45,7 +54,7 @@ const speakers = [
   },
   {
     id: '2',
-    speakerPhoto: '/images/JerrySaltz.jpeg',
+    speakerPhoto: './images/JerrySaltz.jpeg',
     speakerPhotoAlt: 'Jerry Saltz, an art critic.',
     speakerTitle: 'Jerry Saltz',
     speakerLink: 'An American art critic and columnist for New York magazine.',
@@ -53,7 +62,7 @@ const speakers = [
   },
   {
     id: '3',
-    speakerPhoto: '/images/JacobPinholster.jpeg',
+    speakerPhoto: './images/JacobPinholster.jpeg',
     speakerPhotoAlt: 'Jacob Pinholster, technology expert in art',
     speakerTitle: 'Jacob Pinholster',
     speakerLink: 'Associate Professor in Arizona State University.',
@@ -61,7 +70,7 @@ const speakers = [
   },
   {
     id: '4',
-    speakerPhoto: '/images/Amywoodsonbouston.jpg',
+    speakerPhoto: './images/Amywoodsonbouston.jpg',
     speakerPhotoAlt: 'Amy woodson culture expert and professor',
     speakerTitle: 'Amy Woodson',
     speakerLink: 'Professor at Loyola Marymount University in Los Angeles, California.',
@@ -69,7 +78,7 @@ const speakers = [
   },
   {
     id: '5',
-    speakerPhoto: '/images/LydiaGatundu.jpg',
+    speakerPhoto: './images/LydiaGatundu.jpg',
     speakerPhotoAlt: 'Lydia Gatundu museum curator',
     speakerTitle: 'Lydia Gatundu Galavu',
     speakerLink: 'Curator at the National Museums of Kenya (NMK) Nairobi, Kenya.',
@@ -77,7 +86,7 @@ const speakers = [
   },
   {
     id: '6',
-    speakerPhoto: '/images/wambui.jpg',
+    speakerPhoto: './images/wambui.jpg',
     speakerPhotoAlt: 'Wambui Collymore, art collector',
     speakerTitle: 'Wambui Collymore',
     speakerLink: 'She is an artist, consultant and gallery founder.',
@@ -100,9 +109,9 @@ console.log(speaker.id);
         </div>
         <div class="speaker-card-content">
             <h4 class="speaker-title">${speaker.speakerTitle}</h4>
-            <a href=""><em>
+            <p class="red"><em>
                 ${speaker.speakerLink}
-            </em></a>
+            </em></p>
             <p class="speaker-desc">
                 ${speaker.speakerDesc}
             </p>
