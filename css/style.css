@@ -137,6 +137,7 @@
 .program-cards-layout {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: .7em;
   margin: 2.5em 0;
 }
@@ -144,11 +145,12 @@
 .program-card {
   background-color: #272a31;
   display: flex;
+  justify-content: center;
   gap: 10px;
   align-items: center;
-  padding: 1em;
-  height: 100px;
-  margin: 0 20px;
+  padding: .5em;
+  height: 100%;
+  width: 90%;
 }
 
 .program-card h3 {
@@ -167,16 +169,18 @@
   width: 15%;
   color: #fff;
   font-size: 28px;
-  padding-left: 15px;
+  text-align: center;
 }
 
 .join {
   text-decoration: none;
   color: #fff;
   background-color: #ec5242;
-  font-size: 28px;
-  padding: 1em 2em;
+  font-size: 20px;
+  width: 50%;
+  padding: 1em;
   display: block;
+  text-align: center;
 }
 
 .whole-program {
@@ -199,19 +203,20 @@
 .speakers-cards-layout {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
-  /* height: 100%; */
+  width: 70%;
 }
 
 .speaker-card {
-  width: 450px;
-  height: 150px;
+  width: 90%;
+  height: 100%;
+  padding: .7em .3em;
   display: flex;
   align-items: center;
   background-color: #fff;
-  /* margin: 10px 5px;
-  padding: 10px; */
 }
 
 .disappear {
@@ -224,8 +229,6 @@
 
 .img {
  width: 12%;
-  /* display: inline-block; */
-  /* object-position: center; */
 }
 
 .img img {
@@ -312,7 +315,7 @@
 .partner li {
   color: #d3d3d3;
   list-style: none;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 footer {
@@ -668,19 +671,24 @@ footer {
 
   /* featued speakers */
   .speakers-cards-layout {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     width: 70%;
   }
   
   .speaker-card {
-    width: 100%;
+    width: 48%;
     height: 100%;
     display: flex;
     align-items: center;
-    background-color: #fff;
-    margin: 5%;
+    background-color: #ffffff;
+    /* margin: 5%; */
+    padding: .6em .2em;
   }
   
   .img {
